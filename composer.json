@@ -1,0 +1,15 @@
+{
+    "name": "quafzi/product-multi-store-mass-update",
+    "license": "MIT",
+    "type": "magento-module",
+    "description": "Allow changing product data in multiple stores in one step",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Thomas Birke",
+            "email":"tbirke@netextreme.de"
+        }
+    ]
+}
