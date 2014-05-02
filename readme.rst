@@ -54,4 +54,4 @@ MIT
 
 Copyright
 ---------
-(c) 2014 Quafzi
+© 2014 Quafzi
