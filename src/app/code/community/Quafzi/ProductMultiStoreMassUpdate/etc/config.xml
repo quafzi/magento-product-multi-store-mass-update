@@ -10,6 +10,11 @@
             <quafzi_productmultistoremassupdate>
                 <class>Quafzi_ProductMultiStoreMassUpdate_Block</class>
             </quafzi_productmultistoremassupdate>
+            <adminhtml>
+                <rewrite>
+                    <catalog_product_edit_action_attribute>Quafzi_ProductMultiStoreMassUpdate_Block_Catalog_Product_Edit_Action_Attribute</catalog_product_edit_action_attribute>
+                </rewrite>
+            </adminhtml>
         </blocks>
         <helpers>
             <quafzi_productmultistoremassupdate>
@@ -17,4 +22,24 @@
             </quafzi_productmultistoremassupdate>
         </helpers>
     </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <quafzi_productmultistoremassupdate>
+                    <file>quafzi_productmultistoremassupdate.xml</file>
+                </quafzi_productmultistoremassupdate>
+            </updates>
+        </layout>
+    </adminhtml>
+    <admin>
+        <routers>
+            <quafzi_productmultistoremassupdate>
+                <use>admin</use>
+                <args>
+                    <module>Quafzi_ProductMultiStoreMassUpdate</module>
+                    <frontName>productmultistoremassupdate</frontName>
+                </args>
+            </quafzi_productmultistoremassupdate>
+        </routers>
+    </admin>
 </config>

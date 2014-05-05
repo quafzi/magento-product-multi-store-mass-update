@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_catalog_product_action_attribute_edit>
+        <reference name="store_switcher">
+            <action method="setTemplate"><template>quafzi_productmultistoremassupdate/stores.phtml</template></action>
+        </reference>
+    </adminhtml_catalog_product_action_attribute_edit>
+</layout>
