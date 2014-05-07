@@ -1,7 +1,7 @@
 <?php /* @var $this Mage_Core_Block_Template */ ?>
 <?php if ($websites = $this->getWebsites()): ?>
 <p class="switcher"><label for="store_selector"><?php echo $this->__('Choose Store Views:') ?></label>
-<select name="store_selector" id="store_selector" multiple="true" size="25">
+<select name="store_selector" id="store_selector" multiple="true" size="25" onchange="$$('.main-col-inner')[0].hide()">
 <?php if ($this->hasDefaultOption()): ?>
     <option value=""><?php echo $this->getDefaultStoreName() ?></option>
 <?php endif; ?>
